@@ -1,0 +1,7 @@
+@import "demo-02/settings/vars";
+@import "demo-02/components/bar";
+
+.foo {
+  display: $display; // block
+  color: $color; // black
+}

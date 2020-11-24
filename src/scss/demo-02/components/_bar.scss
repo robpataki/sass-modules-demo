@@ -1,0 +1,6 @@
+@import "../settings/more-vars";
+
+.bar {
+  display: $display; // flex
+  color: $color; // red
+}

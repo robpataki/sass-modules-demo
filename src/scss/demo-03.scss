@@ -1,0 +1,7 @@
+@use "demo-03/settings/vars";
+@use "demo-03/components/bar";
+
+.foo {
+  display: vars.$display; // block
+  color: vars.$color; // black
+}
