@@ -1,0 +1,6 @@
+$shared-colour: blue;
+$-secret-colour: yellow;
+
+@mixin background($bg: $-secret-colour) {
+  background: $bg;
+}

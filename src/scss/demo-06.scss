@@ -1,0 +1,13 @@
+@use "demo-06/settings/mixins" as mix;
+
+.foo {
+  @include mix.background; // yellow
+}
+
+.bar {
+  @include mix.background(mix.$shared-colour); // blue
+}
+
+/* .meh {
+  background: mix.$-secret-colour; // error
+} */
