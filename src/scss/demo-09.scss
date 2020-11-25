@@ -1,0 +1,17 @@
+@use "sass-mq/mq" as * with (
+  $mq-breakpoints: (
+    mobile:  10em,
+    tablet:  20em,
+    desktop: 30em,
+    wide:    40em
+  )
+);
+
+.responsive {
+  @include mq($from: mobile) {
+    background: blue;
+  }
+  @include mq($from: desktop) {
+    background: red;
+  }
+}

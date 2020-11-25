@@ -1,0 +1,10 @@
+@import "sass-mq/mq";
+
+.responsive {
+  @include mq($from: mobile) {
+    background: blue;
+  }
+  @include mq($from: desktop) {
+    background: red;
+  }
+}
