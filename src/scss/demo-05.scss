@@ -1,0 +1,12 @@
+@use "demo-03/settings/vars" as *;
+@use "demo-03/settings/more-vars" as mo-vars;
+
+.foo {
+  display: $display; // block
+  color: $color; // black
+}
+
+.bar {
+  display: mo-vars.$display; // flex
+  color: mo-vars.$color; // red
+}
