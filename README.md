@@ -11,9 +11,9 @@ These are some simple examples to demonstrate how the [Sass Module System](https
 |**Demo 04**|Namespaces with `@use`|[Link to the file]('./src/scss/demo-04.scss')|
 |**Demo 05**|Namespaces - gotchas|[Link to the file]('./src/scss/demo-05.scss')|
 |**Demo 06**|Private members|[Link to the file]('./src/scss/demo-06.scss')|
-|**Demo 07**|Configuring Sass Libraries with `@import`|[Link to the file]('./src/scss/demo-07.scss')|
-|**Demo 08**|Configuring Sass Libraries with `@use` and `with`|[Link to the file]('./src/scss/demo-08.scss')|
-|**Demo 09**|Passing a configuration object to the **sass-mq** module using the `@use` syntax and the new `with` keyword (Same result as Demo 08's output)|[Link to the file]('./src/scss/demo-09.scss')|
+|**Demo 07**|Configuring Sass Libraries with `@import` - 1|[Link to the file]('./src/scss/demo-07.scss')|
+|**Demo 08**|Configuring Sass Libraries with `@import` - 1|[Link to the file]('./src/scss/demo-08.scss')|
+|**Demo 09**|Configuring Sass Libraries with `@use` and `with`)|[Link to the file]('./src/scss/demo-09.scss')|
 |**Demo 10**|Forwarding modules using `@forward`|[Link to the file]('./src/scss/demo-10.scss')|
 |**Demo 11**|Hide certaon members of a module when forwarding it |[Link to the file]('./src/scss/demo-11.scss')|
 
