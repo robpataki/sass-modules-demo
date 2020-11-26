@@ -1,0 +1,7 @@
+@use "demo-10/settings" as *;
+
+.foobar {
+  width: col-width(3);
+  font-size: $base-font-size;
+  @include red;
+}

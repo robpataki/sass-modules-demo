@@ -1,0 +1,10 @@
+@use "sass:math";
+@use "sass:string";
+
+.half-width {
+  width: math.percentage(1/2);
+}
+
+.random-content {
+  content: string.quote(hello-#{string.unique-id()});
+}

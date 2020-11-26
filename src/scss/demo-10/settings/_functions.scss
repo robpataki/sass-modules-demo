@@ -1,0 +1,5 @@
+$-grid-width: 960px;
+
+@function col-width($col: 12) {
+  @return $-grid-width / $col;
+}
